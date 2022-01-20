@@ -1,0 +1,35 @@
+.footer{
+  text-align: center;
+  background:var(--gray1);
+}
+.container .footer-logo {
+  margin: 20px 0;
+}
+.container .footer-logo .img-logo {
+  width: 150px;
+}
+.footer .container .footer-contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .container .contact-info {
+  display: flex;
+  text-align: left;
+  padding: 20px;
+  color: #fff;
+  flex: 1 1 45%;
+}
+.info-icon {
+  color: #f19503;
+  margin-right: 2rem;
+}
+.info-text h3 {
+  color: #f19503;
+}
+.info-address, .info-tel, .info-mail {
+  display: flex;
+}
+.info-tel i, .info-mail i,.info-address i {
+  padding-top: 0.4rem;
+  margin-right: 1rem;
+}

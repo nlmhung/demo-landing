@@ -1,0 +1,207 @@
+#home
+  section.intro
+    .content
+      h1
+        |WELCOM TO 
+      span.color-yellow IT LEARNING HUB
+      h3
+        |Luôn luôn lắng nghe, lâu lâu mới hiểu
+  section.work-slide
+    .container
+      h1 
+        span.color-yellow IT LEARNING HUB 
+        span.fs-2 là nơi :
+      .swiper-container
+        .swiper-wrapper
+          .swiper-slide
+            .card
+              .card-img-top
+                =image_tag('demo-page/1111.jpeg', class:"card-img")
+              .card-body
+                p.card-text
+                  |Sinh viên được học tập, trao đổi những kiến thức thực tế và mới nhất về công nghệ thông tin
+          .swiper-slide
+            .card
+              .card-img-top
+                =image_tag('demo-page/5.jpeg', class:"card-img")
+              .card-body
+                p.card-text
+                  |Sinh viên được được đào tạo, hướng dẫn bởi những người có chuyên môn cao trong ngành
+          .swiper-slide
+            .card
+              .card-img-top
+                =image_tag('demo-page/1.jpeg', class:"card-img")
+              .card-body
+                p.card-text
+                  |Sinh viên được làm quen với các kiến thức, kỹ năng làm việc theo yêu cầu thực tế của doanh nghiệp
+          .swiper-slide
+            .card
+              .card-img-top
+                =image_tag('demo-page/3.jpeg', class:"card-img")
+              .card-body
+                p.card-text
+                  |Sinh viên được được va chạm thực tế bởi các dự án do 
+                  span.color-yellow Tech Town 
+                  |đưa ra
+          .swiper-slide
+            .card
+              .card-img-top
+                =image_tag('demo-page/1122.jpeg', class:"card-img")
+              .card-body
+                p.card-text
+                  |Tất cả sinh viên có nhu cầu học hỏi được tham gia các buổi đào tạo, chia sẻ từ chuyên gia
+          .swiper-slide
+            .card
+              .card-img-top
+                =image_tag('demo-page/6.jpeg', class:"card-img")
+              .card-body
+                p.card-text
+                  |Sinh viên năm 3 & năm 4 được tham gia các dự án thực tế
+  section.main-activities
+    .container
+      h1.heading 
+        | CÁC HOẠT ĐỘNG CHÍNH TẠI 
+        span.color-yellow IT LEARNING HUB
+      .content
+        .activities-card 
+          .face.face1 
+            .face-content 
+              =image_tag("demo-page/workshop.png", class:"activities-img")
+              h3 
+                | ĐÀO TẠO
+          .face.face2 
+            .face-content  
+              p 
+                | Sinh viên tham gia Learning Hub sẽ được tham dự các buổi đào tạo kiến thức,
+                br kinh nghiệm làm việc thực tế từ các chuyên gia hang đầu trong ngành công nghệ thông tin,
+                br hiện đang là Technical Leader, CTO tại các công ty lớn.
+        .activities-card  
+          .face.face1 
+            .face-content  
+              =image_tag("demo-page/meeting.png", class:"activities-img")
+              h3
+                | CHIA SẺ & CỐ VẤN
+          .face.face2 
+            .face-content  
+              p 
+                | Learning Hub sẽ là sân chơi, cầu nối cho các bạn sinh viên yêu thích công nghệ kết nối, chia sẻ kiến thức với nhau, không chỉ trong phạm vi nhà trường mà còn trong cộng đồng các trường đai học khác hay cộng đồng nhân sự làm việc trong lĩnh vực công nghệ thông tin.
+                br Bên cạnh đó các bạn cũng sẽ nhận được sự cố vấn từ những người đi trước về kiến thức hay những vấn đề xoay quanh ngành học của mình.
+        .activities-card 
+          .face.face1 
+            .face-content  
+              =image_tag("demo-page/coder.png", class:"activities-img")
+              h3 
+                | DỰ ÁN THỰC TẾ
+          .face.face2 
+            .face-content  
+              p 
+                | Các sinh viên được lựa chọn tham gia các dự án thực tế sẽ được:
+                br - Cọ xát với môi trường làm việc thực tế tại doanh nghiệp sau khi ra trường.
+                br - Ứng dung kiến thức được học vào thực tế.
+                br - Được nhận lương tương ứng với năng lực và dự án tham gia.
+  section.review
+    .container
+      h1.heading.color-yellow
+        | Đội ngũ hướng dẫn giàu kinh nghiệm 
+      .list-card 
+        .profile-card
+          .imgBx
+            =image_tag('demo-page/DL.jpeg', class: "img-profile")
+          .content   
+            h3
+              | Dương Trần
+            span Senior Dev
+            .contact 
+              i.fa.fa-facebook
+              i.fa.fa-telegram
+              i.fa.fa-twitter
+              i.fa.fa-instagram
+        .profile-card
+          .imgBx
+            =image_tag('demo-page/vic.jpeg', class: "img-profile")
+          .content   
+            h3
+              | Dương Trần
+            span Senior Dev
+            .contact 
+              i.fa.fa-facebook
+              i.fa.fa-telegram
+              i.fa.fa-twitter
+              i.fa.fa-instagram
+        .profile-card
+          .imgBx
+            =image_tag('demo-page/DL.jpeg', class: "img-profile")
+          .content   
+            h3
+              | Dương Trần
+            span Senior Dev
+            .contact 
+              i.fa.fa-facebook
+              i.fa.fa-telegram
+              i.fa.fa-twitter
+              i.fa.fa-instagram
+  section.upcoming-events-block
+    .container
+      .block-header
+        .pull-left
+          h1.block-header-heading
+            | Thời gian sự kiện
+      ul.list-unstyled.upcoming-events-list
+        li
+          .alignright
+            =image_tag("demo-page/8.jpeg")
+          .alignleft
+            time.time.text-uppercase datetime="2022-02-07" 
+              strong.date.fw-normal 07
+              strong.month.fw-light.font-lato February
+              strong.day.fw-light.font-lato MONDAY
+          .description-wrap
+            h3.list-heading
+              | Sinh viên đăng ký và thực hiện bài kiểm tra đầu vào
+            address
+              time datetime="2022-02-07"  8:00 am - 5:00 pm
+        li
+          .alignright
+            =image_tag("demo-page/6.jpeg")
+          .alignleft
+            time.time.text-uppercase datetime="2022-02-28" 
+              strong.date.fw-normal 28
+              strong.month.fw-light.font-lato February
+              strong.day.fw-light.font-lato MONDAY
+          .description-wrap
+            h3.list-heading
+              | Bắt đầu training
+            address
+              time datetime="2022-02-28"  12:00 pm - 5:00 pm
+        li     
+          .alignright
+            =image_tag("demo-page/bg7.jpeg")
+          .alignleft
+            time.time.text-uppercase datetime="2022-06-01" 
+              strong.date.fw-normal 01
+              strong.month.fw-light.font-lato June
+              strong.day.fw-light.font-lato WEDNESDAY
+          .description-wrap
+            h3.list-heading
+              | Thực hiện dự án
+            address
+              time datetime="2022-06-01"  4:00 pm - 8:00 pm       
+        li     
+          .alignright
+            =image_tag("demo-page/mentor.jpeg")
+          .alignleft
+            time.time.text-uppercase datetime="2022-07-01" 
+              strong.date.fw-normal 01
+              strong.month.fw-light.font-lato July
+              strong.day.fw-light.font-lato FRIDAY
+          .description-wrap
+            h3.list-heading
+              | Tham gia chương trình Mentoring
+            address
+              time datetime="2022-07-01"  4:00 pm - 8:00 pm     
+  / section.registration-test
+  /   .test 
+  /     h1.heading
+  /       |  ĐĂNG KÝ THỰC HIỆN BÀI TEST
+  /       br
+  /       | wait.......

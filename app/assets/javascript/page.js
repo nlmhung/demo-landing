@@ -1,0 +1,9 @@
+//= require jquery3
+//= require jquery_ujs
+//= require popper
+//= require bootstrap-sprockets
+//= require bootstrap-sprockets
+//= require page/scrolling.js
+//= require page/swiper-bundle.js
+//= require page/swiper.js
+//= require page/responsive-menu.js

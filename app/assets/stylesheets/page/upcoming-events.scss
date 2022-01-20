@@ -1,0 +1,131 @@
+
+// .block-header{
+// 	overflow: hidden;
+// 	position: relative;
+// 	padding-bottom: 11px;
+// 	margin-bottom: 40px;
+// 	@include pseudo(after, auto, auto, 0, 0);
+// 	&:after{ @include size(39px, 1px); }
+// 	.block-header-heading{ margin: 0 0 6px; }
+// 	p{ margin: 0; }
+// }
+// .upcoming-events .upcoming-events-header{
+//   display: flex;
+// }
+.upcoming-events .events-list .events-details{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.upcoming-events .events-list > .events-details + .events-details {
+  padding-top: 40px;
+  border-top: 1px solid #e8e8e8;
+}
+.upcoming-events-block {
+  background: #fff;
+  display: grid;
+  padding-top: 45px;
+	padding-bottom: 24px;
+}
+.upcoming-events-block .block-header {
+  margin: 40px 0 50px 0;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 11px;
+}
+.upcoming-events-block .block-header .pull-left {
+  float: left;
+  position: relative;
+}
+.upcoming-events-block .block-header .pull-left::after{
+  position: absolute;
+  content: "";
+  top: auto;
+  bottom: 0;
+  left: 0;
+  right: auto;
+  background: var(--yellow);
+  width: 70px;
+  height: 1px;
+}
+
+.upcoming-events-block .block-header h1 {
+  color: var(--black1);
+}
+.upcoming-events-list > li {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.upcoming-events-list > li + li {
+  padding-top: 40px;
+  border-top: 1px solid #e8e8e8;
+}
+.upcoming-events-block ul li img {
+  width: 200px;
+}
+.upcoming-events-list .alignright {
+  float: right;
+  margin: 0 0 0 30px;
+}
+.upcoming-events-list .list-heading {
+  font-size: 23px;
+  text-transform: none;
+  font-weight: 400;
+  margin: 0 0 8px;
+  color: var(--black1);
+}
+.upcoming-events-block .list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.upcoming-events-list .alignleft {
+  margin: 0 70px 0 0;
+  max-width: 140px;
+  float: left;
+}
+.upcoming-events-list {
+  margin-bottom: 0;
+}
+.upcoming-events-list .date {
+  font-size: 40px;
+  color: var(--yellow);
+}
+.upcoming-events-list .month {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+.upcoming-events-list .day {
+  width: 100%;
+  padding-top: 6px;
+  font-size: 24px;
+}
+.upcoming-events-list time{
+  color: var(--black2);
+} 
+.upcoming-events-list .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  letter-spacing: -0.6px;
+  font-size: 18px;
+  line-height: 1;
+  padding-top: 17px;
+  
+}
+.upcoming-events-list .description-wrap {
+  overflow: hidden;
+  padding-top: 7px;
+}
+.upcoming-events-list .description-wrap address {
+  margin: 0 0 12px;
+}
+.upcoming-events-list .description-wrap address time {
+  font-size: 16px;
+}

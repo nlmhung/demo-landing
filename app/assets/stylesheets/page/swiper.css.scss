@@ -1,0 +1,37 @@
+.work-slide {
+  background: #e9e9e9;
+}
+.work-slide h1 {
+  padding: 50px 0;
+}
+.work-slide .swiper-container {
+  width: 100%;
+  padding: 0 0 50px;
+  overflow: hidden;
+}
+
+.work-slide .swiper-slide {
+  width: 300px;
+  height: 350px;
+  filter: blur(4px);
+  box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+.work-slide .swiper-slide-active {
+  filter: blur(0)
+}
+.work-slide .swiper-slide .card {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.work-slide .swiper-slide img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  
+}
+.swiper-slide .card-body .card-text {
+  // color: #fff;
+  font-size: 18px;
+  line-height: 1.5;
+}

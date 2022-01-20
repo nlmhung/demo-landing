@@ -1,0 +1,21 @@
+header
+  .container
+    .header-logo 
+      =image_tag('demo-page/techtown_logo.png', class: "img-logo")
+    nav.navbar
+      = link_to "#about",class: "link_menu" do 
+        | About
+      = link_to "##home",class: "link_menu" do 
+        | home
+      = link_to "#features",class: "link_menu" do 
+        | home
+      = link_to "#usage",class: "link_menu" do 
+        | home
+      = link_to "#review",class: "link_menu" do 
+        | home
+      = link_to "#contact",class: "link_menu" do 
+        | contact
+    .menu-icon
+      i#menu-bars.fa.fa-bars
+      / i.fa.fa-times
+       
